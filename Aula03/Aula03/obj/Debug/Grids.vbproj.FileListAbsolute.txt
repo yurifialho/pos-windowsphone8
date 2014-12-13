@@ -1,0 +1,21 @@
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\Bin\Debug\Assets\ApplicationIcon.png
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\Bin\Debug\Aula03.dll
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\Bin\Debug\Aula03.pdb
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\Bin\Debug\Aula03.xml
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\Bin\Debug\AppManifest.xaml
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\Bin\Debug\My Project\WMAppManifest.xml
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\Bin\Debug\Aula03_Debug_AnyCPU.xap
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\obj\Debug\App.g.i.vb
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\obj\Debug\MainPage.g.i.vb
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\obj\Debug\Aula03.g.resources
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\obj\Debug\Aula03.AppResources.resources
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\obj\Debug\Grids.vbproj.GenerateResource.Cache
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\obj\Debug\Aula03.dll
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\obj\Debug\Aula03.xml
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\obj\Debug\Aula03.pdb
+C:\Users\posgrad\documents\visual studio 2013\Projects\Aula03\Aula03\obj\Debug\XapCacheFile.xml

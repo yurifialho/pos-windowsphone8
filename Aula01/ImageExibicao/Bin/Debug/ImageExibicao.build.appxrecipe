@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FA7-L42M18</Machine>
+    <WindowsUser>posgrad</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>c9dcfabe-5973-4c59-8549-7d0d8a355789</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Bin\Debug\ImageExibicao.dll">
+      <PackagePath>ImageExibicao.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Assets\Grama.png">
+      <PackagePath>Assets\Grama.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Assets\WindowsFlag.png">
+      <PackagePath>Assets\WindowsFlag.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula01\ImageExibicao\Bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

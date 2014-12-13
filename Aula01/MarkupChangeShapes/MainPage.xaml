@@ -1,0 +1,30 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MarkupChangeShapes.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+   <!-- 
+    <phone:PhoneApplicationPage.Resources>
+        <SolidColorBrush Color="Yellow" x:Key="corPadrao" />
+    </phone:PhoneApplicationPage.Resources>
+    -->
+    <StackPanel Height="Auto" Width="Auto">
+        
+        <TextBlock Name="Text" Foreground="{StaticResource corPadrao}">
+            <Run Text="Altura, Largura = " />
+            <Run Text="{Binding Value, ElementName=Slider }" />
+        </TextBlock>
+        <Slider Foreground="{StaticResource corPadrao}" Name="Slider" Maximum="500" Minimum="10" VerticalAlignment="Bottom" />
+        <Rectangle Name="rectangle" Fill="Blue" Height="{Binding Value, ElementName=Slider}" Width="{Binding Value, ElementName=Slider}"/>
+        
+    </StackPanel>
+</phone:PhoneApplicationPage>

@@ -1,0 +1,34 @@
+﻿<xapCache source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Bin\Debug\ToolkitUsage_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="22/11/2014 17:09:41">
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="22/11/2014 16:59:24" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\obj\Debug\ToolkitUsage.dll" archivePath="ToolkitUsage.dll" lastWriteTime="22/11/2014 17:09:40" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="22/11/2014 16:42:52" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="22/11/2014 16:42:52" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Assets\Icons\delete.png" archivePath="Assets\Icons\delete.png" lastWriteTime="22/11/2014 16:57:01" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Assets\Icons\edit.png" archivePath="Assets\Icons\edit.png" lastWriteTime="22/11/2014 16:57:01" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Assets\Icons\search.png" archivePath="Assets\Icons\search.png" lastWriteTime="22/11/2014 16:57:01" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Assets\Icons\settings.png" archivePath="Assets\Icons\settings.png" lastWriteTime="22/11/2014 16:57:01" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="22/11/2014 16:42:52" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Assets\Movie\winsat.wmv" archivePath="Assets\Movie\winsat.wmv" lastWriteTime="22/11/2014 16:43:53" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Assets\SplashScreen.png" archivePath="Assets\SplashScreen.png" lastWriteTime="22/11/2014 16:42:52" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Assets\SquareTile150x150.png" archivePath="Assets\SquareTile150x150.png" lastWriteTime="22/11/2014 16:42:52" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Assets\SquareTile71x71.png" archivePath="Assets\SquareTile71x71.png" lastWriteTime="22/11/2014 16:42:52" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Assets\StoreLogo.png" archivePath="Assets\StoreLogo.png" lastWriteTime="22/11/2014 16:42:52" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Assets\WideLogo.png" archivePath="Assets\WideLogo.png" lastWriteTime="22/11/2014 16:42:52" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="22/11/2014 16:42:52" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="22/11/2014 16:42:52" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="22/11/2014 16:42:52" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="22/11/2014 16:42:52" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="22/11/2014 16:44:16" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="22/11/2014 16:44:16" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="22/11/2014 16:44:16" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="22/11/2014 16:44:16" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="22/11/2014 16:44:16" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="22/11/2014 16:44:16" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="22/11/2014 16:53:42" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="22/11/2014 16:42:52" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="22/11/2014 16:42:52" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="22/11/2014 16:25:19" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="22/11/2014 16:42:57" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="22/11/2014 17:09:41" />
+  <file source="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\ToolkitUsage\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="22/11/2014 16:59:24" />
+</xapCache>

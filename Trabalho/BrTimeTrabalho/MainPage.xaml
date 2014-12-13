@@ -1,0 +1,90 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="BrTimeTrabalho.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="Mudar Time" Click="goToMudarTime_Click" />
+                <shell:ApplicationBarMenuItem Text="Fixar na tela incial" Click="fixarTeleInicial_Click" />
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+    <phone:Pivot Title="Times Brasileiros" Name="pivotTime">
+        <phone:PivotItem Header="Times" >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Button Grid.Column="0" Grid.Row="0" Name="fortaleza" Content="Fortaleza" Click="changeTime_Click"/>
+                <Button Grid.Column="0" Grid.Row="1" Name="ceara" Content="Ceará" Click="changeTime_Click"/>
+                <Button Grid.Column="0" Grid.Row="2" Name="corinthians" Content="Corinthians" Click="changeTime_Click"/>
+
+                <Button Grid.Column="1" Grid.Row="0" Name="cruzeiro" Content="Cruzeiro" Click="changeTime_Click"/>
+                <Button Grid.Column="1" Grid.Row="1" Name="flamengo" Content="Flamento" Click="changeTime_Click"/>
+                <Button Grid.Column="1" Grid.Row="2" Name="sport" Content="Sport" Click="changeTime_Click"/>
+                
+            </Grid>
+        </phone:PivotItem>
+        <phone:PivotItem Header="Noticias">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="4*" />
+                </Grid.RowDefinitions>
+                <TextBlock Name="labelNoticias" Text="" FontSize="40" Grid.Row="0"/>
+                <ListBox Name="listNoticiaTimes" Grid.Row="1">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="3">
+                                <TextBlock Text="{Binding Titulo}" Tap="viewNoticia_Click"/>
+                                <Button Content="Favorito" Click="adicionarFavorito_Click"/>
+                            </StackPanel>                            
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
+        </phone:PivotItem>
+        <phone:PivotItem Header="Favoritas">
+            <Grid>
+                <ListBox Name="listFavoritos" >
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="3">
+                                <TextBlock Tap="viewNoticia_Click">
+                                    <Run Text="{Binding Time}"/>
+                                    <Run Text=" :  "/>
+                                </TextBlock>
+                                <TextBlock Text="{Binding Titulo}" Tap="viewNoticia_Click"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
+        </phone:PivotItem>
+
+    </phone:Pivot>
+
+</phone:PhoneApplicationPage>

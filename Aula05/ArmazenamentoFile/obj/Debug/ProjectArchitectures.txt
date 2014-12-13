@@ -1,0 +1,1 @@
+c:\users\posgrad\documents\visual studio 2013\Projects\Aula05\ArmazenamentoFile\ArmazenamentoFile.csproj;neutral

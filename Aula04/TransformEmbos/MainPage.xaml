@@ -1,0 +1,33 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="TransformEmbos.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid>
+        <TextBlock Text="EMBOSS" FontWeight="Bold"
+                   VerticalAlignment="Center" 
+                   HorizontalAlignment="Center" FontSize="70">
+            <TextBlock.RenderTransform>
+                <!--<ScaleTransform ScaleX="0.98" ScaleY="0.98"/> -->
+                <TranslateTransform X="-1.5" Y="-1.5"/> 
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock Text="EMBOSS" VerticalAlignment="Center" 
+                   HorizontalAlignment="Center" FontSize="70"
+                   Foreground="Brown" FontWeight="Bold">
+            
+        </TextBlock>
+    </Grid>
+
+</phone:PhoneApplicationPage>

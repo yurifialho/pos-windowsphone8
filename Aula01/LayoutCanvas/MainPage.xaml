@@ -1,0 +1,29 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="LayoutCanvas.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal">
+            <Button Name="bt01" HorizontalAlignment="Left" Content="Blue"  Click="bt_Click"/>
+            <Button Name="bt02" HorizontalAlignment="Center" Content="Yellow" Click="bt_Click"/>
+            <Button Name="bt03" HorizontalAlignment="Right" Content="Red" Click="bt_Click" />
+        </StackPanel>
+        <Canvas Name="CanvasObj" Height="700">
+           
+        </Canvas>
+    </StackPanel>
+
+        
+
+</phone:PhoneApplicationPage>

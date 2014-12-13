@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FA7-L42M18</Machine>
+    <WindowsUser>posgrad</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>055f7c22-c851-4509-815f-642b5a436878</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Bin\Debug\AppBarComponent.dll">
+      <PackagePath>AppBarComponent.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\Icons\delete.png">
+      <PackagePath>Assets\Icons\delete.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\Icons\edit.png">
+      <PackagePath>Assets\Icons\edit.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\Icons\search.png">
+      <PackagePath>Assets\Icons\search.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\Icons\settings.png">
+      <PackagePath>Assets\Icons\settings.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\posgrad\Documents\Visual Studio 2013\Projects\Aula04\AppBarComponent\Bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

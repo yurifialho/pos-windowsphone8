@@ -1,0 +1,36 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Controllers.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <StackPanel>
+        <StackPanel>
+            <Rectangle Name="Rectangle" Width="400" Height="400" Stroke="White" StrokeThickness="1"></Rectangle>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <StackPanel HorizontalAlignment="Center">
+                <Slider Name="Red" MaxHeight="255" Foreground="Red" Height="255" Maximum="255" Minimum="0" Orientation="Vertical" Margin="30" ValueChanged="SizeChanged"/>
+                <TextBlock Name="Red_Label" Text="0" Foreground="Red" HorizontalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel>
+                <Slider Name="Green" MaxHeight="255" Foreground="Green" Height="255" Maximum="255" Minimum="0" Orientation="Vertical" Margin="30" ValueChanged="SizeChanged"/>
+                <TextBlock Name="Green_Label" Text="0" Foreground="Green" HorizontalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel>
+                <Slider Name="Blue" MaxHeight="255" Height="255" Foreground="Blue" Maximum="255" Minimum="0" Orientation="Vertical"  Margin="30" ValueChanged="SizeChanged"/>
+                <TextBlock Name="Blue_Label" Text="0" Foreground="Blue" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+
+</phone:PhoneApplicationPage>
